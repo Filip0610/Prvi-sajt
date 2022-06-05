@@ -1,7 +1,4 @@
-.div4 {
-width: 1663px;
 
-}
 .search-icon {
 height: 25px;
 margin-top: 4px;
@@ -23,7 +20,6 @@ background-color: white;
 cursor: pointer;
 width: 150px;
 height: 40px;
-margin-left: 90px;
 background-color: rgb(147, 90, 194);
 border: white;
 border-radius: 3px;
@@ -108,7 +104,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 padding-left: 164px;
 padding-right: 164px;
-grid-gap: 50px;    
+grid-gap: 50px; 
 }
 span {
 font-family: roboto,arial;
