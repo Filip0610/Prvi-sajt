@@ -1,0 +1,385 @@
+
+.search-icon {
+height: 25px;
+margin-top: 4px;
+
+}
+.dugme4 {
+width: 55px;
+height: 33;
+cursor: pointer;
+border-width: 1px;
+border-style: solid;
+border-color: white;
+margin-left: -2px;
+border-top-right-radius: 18px;
+border-bottom-right-radius: 18px;
+background-color: white;
+}
+.dugme3 {
+cursor: pointer;
+width: 150px;
+height: 40px;
+margin-left: 90px;
+background-color: rgb(147, 90, 194);
+border: white;
+border-radius: 3px;
+border: 1px solid white;
+color: white;
+}
+.dugme3:hover {
+  opacity:0.7;
+}
+.dugme3:active {
+  opacity: 0.6;
+}
+.search {
+width: 0x;
+height: 35px;
+padding-left: 20px;
+flex: 1;
+border-radius: 2px;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(161, 159, 159);
+border-top-left-radius: 18px;
+border-bottom-left-radius: 18px;
+}
+.leva-strana {
+background-color: rgb(147, 90, 194);
+width: 150px;
+color: white;
+font-size: 20px;
+margin-left: 10px;
+padding-top: 12px;
+font-family: roboto;
+font-weight: bolder;
+}
+.sredina {
+background-color: rgb(147, 90, 194);
+flex: 1;
+margin-left: 75px;
+margin-right: 35px;
+max-width: 800px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+align-items: center;
+padding-bottom: 7px;
+}
+.desna-strana {
+background-color: rgb(147, 90, 194);
+width: 250px;
+padding-top: 6px;
+flex-shrink: 0;
+}
+body {
+margin: 0px;
+padding-top: 65px;
+}
+.header {
+height: 55px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: rgb(147, 90, 194);
+align-items: center;
+margin-bottom: 10px;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+}
+.div3 {
+width: 350px;
+vertical-align: top;
+border-radius: 30px;
+min-height: 438px;
+}
+p {
+font-family: roboto,arial;
+}
+.grid1 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding-left: 164px;
+padding-right: 164px;
+grid-gap: 50px;    
+}
+span {
+font-family: roboto,arial;
+}
+.test-trougao {
+background-color: rgb(229, 34, 40);
+width: 60px;
+padding-top: 8px;
+padding-bottom: 9px;
+margin-left: 90px;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 15px; 
+}
+.test-trougao2 {
+background-color: rgb(229, 34, 40);
+width: 60px;
+padding-top: 8px;
+padding-bottom: 9px;
+margin-left: 90px;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 14px;
+text-align: center;
+}
+button {
+
+font-family: roboto;
+}
+.slika2 {
+margin-left: 40px;
+margin-bottom: 45px;
+
+}
+.slika1 {
+margin-bottom: 45px;
+margin-left: 40px;
+}
+
+.div1 {
+vertical-align: top;
+border: 1px solid rgb(96, 96, 96);
+transition: box-shadow 0,25;
+border-radius: 30px;
+min-height: 438px;
+}
+
+.div1:hover {
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+.div2 {
+vertical-align: top;
+border: 1px solid rgb(96, 96, 96);
+transition: box-shadow 0,25;
+border-radius: 30px;
+min-height: 438px;
+}
+
+.div2:hover {
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+.Dodaj-u-korpu  {
+background-color: rgb(200, 0, 0);
+color: white;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 3px;
+cursor: pointer;
+margin-right: 20px;
+transition: opacity 0.15s;
+font-family: roboto;
+text-align: center;
+width: 300px;
+margin-left: 25px;
+height: 40px;
+}
+.Dodaj-u-korpu:hover {
+opacity: 0.7;
+}
+
+.Dodaj-u-korpu:active {
+opacity: 0.5;
+}
+.srednja-penjalica {
+font-weight: bolder;
+font-size: 22;
+margin-top: 20px;
+color: black;
+margin-left: 35px;
+margin-bottom: 14px;
+}
+.cena {
+font-weight: bold;
+color: rgb(0, 118, 0);
+font-size: 19px;
+color: white;
+}
+.dugme1 {
+background-color: rgb(255, 216, 20);
+color: black;
+border: none;
+height: 40;
+width: 300;
+border-radius: 15px;
+cursor: pointer;
+margin-right: 20px;
+transition: opacity 0.15;
+margin-left: 25px;
+margin-bottom: 0px;
+}
+.dugme1:hover {
+opacity: 0.8;
+}
+.dugme1:active {
+opacity: 0.6;
+}
+.dugme2 {
+background-color: rgb(255, 164, 28);
+color: black;
+border: none;
+height: 30;
+width: 120;
+border-radius: 15px;
+cursor: pointer;
+transition: opacity 0.15;
+}
+.dugme2:hover {
+opacity: 0.8;
+}
+.dugme2:active {
+opacity: 0.7;
+}
+.p1 {
+font-weight: bolder;
+font-size: 22;
+margin-top: 20px;
+color: black;
+margin-left: 35px;
+margin-bottom: 14px;
+}
+.p2 {
+font-size: 19px;
+font-weight: bold;
+color: white;
+}
+.p6 {
+font-family: arial;
+margin-top: 40px;
+margin-bottom: 40px;
+font-size: 15px;
+background-color: rgb(227, 65, 64);
+color: white;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+text-decoration: underline;
+}
+.span1:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+.span1 {
+margin-left: 0px;
+}
+.search {
+font-size: 20px;
+}
+.test-mail {
+margin-left: 20px;
+width: 250px;
+font-size: 17px;
+border-radius: 5px;
+border: 2px solid rgb(96, 96, 96);
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.email {
+margin-left: 20px;
+font-family: arial;
+color: rgb(96, 96, 96);
+margin-bottom: 5px;
+}
+.pitanja {
+font-family: arial;
+margin-left: 20px;
+color: rgb(96, 96, 96);
+margin-top: 10px;
+}
+.posalji {
+margin-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 100px;
+padding-right: 100px;
+font-size: 18px;
+border-radius: 40px;
+border: none;
+background-color: rgb(0, 125, 255);
+cursor: pointer;
+color: white;
+transition: opacity 0.15;
+display: block;
+margin-bottom: 50px;
+}
+.posalji:hover {
+opacity: 0.8;
+}
+.posalji:active {
+opacity: 0.7;
+}
+.mail {
+display: block;
+margin-bottom: 15px;
+font-size: 18px;
+margin-left: 20px;
+border-radius: 10px;
+color: rgb(96, 96, 96);
+border: 2px solid rgb(96, 96, 96);
+width: 270px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.ime {
+margin-right: 5px;
+margin-bottom: 10px;
+font-size: 18px;
+margin-left: 20px;
+width: 130px;
+color: rgb(96, 96, 96);
+border-radius: 5px;
+border: 2px solid rgb(96, 96, 96);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 5px;
+padding-left: 5px;
+}
+.prezime {
+font-size: 18px;
+width: 130px;
+color: rgb(96, 96, 96);
+border: 2px solid rgb(96, 96, 96);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 5px;
+padding-left: 5px;
+border-radius: 5px;
+}
+.prijava {
+margin-left: 20px;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 10px;
+padding-top: 10px;
+font-size: 18px;
+border-radius: 10px;
+border: none;
+color: white;
+background-color: rgb(0, 125, 255);
+cursor: pointer;
+transition: opacity 0.15;
+}
+.prijava:hover {
+opacity: 0.8;
+}
+.prijava:active {
+opacity: 0.7;
+}
+.div3 {
+width: 400px;
+}

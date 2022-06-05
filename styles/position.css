@@ -1,0 +1,87 @@
+.left-sidebar {
+background-color: rgb(39, 38, 38);
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+width: 80px;
+display: flex;
+}
+.slika1 {
+top: 15;
+left: 10;
+width: 60px;
+border-radius: 400px;
+position: absolute;
+height: 60px;
+}
+.slika2 {
+width: 60px;
+position: absolute;
+left: 10;
+top: 85;
+height: 60px;
+border-radius:100px;
+}
+.slika3 {
+width: 60px;
+position: absolute;
+left: 10;
+top: 155;
+height: 60px;
+border-radius: 100px;
+}
+.text-bar {
+background-color: rgb(77, 77, 77);
+position:absolute;
+left: 80px;
+top: 0;
+bottom: 0;
+width: 200px;
+}
+.info {
+color: white;
+font-family: roboto,arial;
+font-size: 17px;
+font-family: bolder;
+position: absolute;
+top: 25;
+left: 20;
+}
+.plus {
+font-size: 25px;
+font-family: roboto;
+color: rgb(158, 157, 157);
+position: absolute;
+top: 20;
+left: 150;
+}
+.videos {
+position: absolute;
+top: 55;
+left: 20;
+color: rgb(151, 151, 151);
+font-family: bold;
+font-size: 17px;
+}
+.updates {
+position: absolute;
+top: 85;
+left: 20;
+color: rgb(151, 151, 151);
+font-family: bold;
+font-size: 17px;
+}
+.chat {
+position: absolute;
+top: 115;
+left: 20;
+color: rgb(151, 151, 151);
+font-family: bold;
+font-size: 17px;
+
+
+}
+body {
+height: 3000px;
+}
